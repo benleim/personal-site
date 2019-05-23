@@ -1,0 +1,50 @@
+.Home-Container {
+    width: calc(60%);
+    height: 435px;
+    float: left;
+    padding: 220px 0px 220px 0px;
+}
+
+.Home-Name {
+    text-align: left;
+    margin: 0px;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.Home-Desc {
+    text-align: left;
+    margin: 0px;
+    font-size: 70px;
+    font-weight: bold;
+    color: #4e67eb
+}
+
+.Home-Intro {
+    margin: 0px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.Home-Subtext {
+    float: left;
+    margin-top: 60px;
+    font-size: 20px;
+    width: 100%;
+}
+
+.Home-ContactBtn {
+    padding: 18px 24px 18px 24px;
+    margin: 50px 0px 0px 0px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-family: 'CircularStd';
+    background-color: transparent;
+    color: #4e67eb;
+    border: 2px #4e67eb solid;
+    float: left;
+}
+
+.Home-ContactBtn:hover {
+    background-color: #dbe0fb
+}

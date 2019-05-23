@@ -1,0 +1,53 @@
+.About {
+    padding: 220px 0px 220px 0px;
+    width: calc(60%);
+}
+
+.About-TitleNum {
+    display: inline-block;
+    color: #4e67eb
+}
+
+.About-TitleText {
+    display: inline-block;
+    font-weight: bold;
+    margin: 0px 0px 0px 12px;
+}
+
+.About-Desc {
+    width: 480px;
+    float: left;
+    clear: left;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.About-ImportantText {
+    color: #4367eb
+}
+
+.About-Techs {
+    float: left;
+    clear: left;
+    font-size: 18px;
+    padding: 0px;
+    columns: 3;
+    column-gap: 40px;
+}
+
+.About-Techs li {
+    list-style: none;
+}
+
+.About-Techs li::before {
+    content: '\25B8';
+    padding-right: 1em;
+    color: #4367eb;
+}
+
+.About-PicMe {
+    width: 450px;
+    height: 300px;
+    float: right;
+    border: 2px solid #4367eb;
+}
