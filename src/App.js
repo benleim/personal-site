@@ -1,8 +1,10 @@
 import React from 'react';
 import './App.css';
 import Navigation from './Components/Navigation.js'
-import About from './Components/About.js'
 import Home from './Components/Home.js'
+import About from './Components/About.js'
+import Experience from './Components/Experience.js'
+
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
         <Navigation/>
         <Home/>
         <About/>
+        <Experience/>
     </div>
   );
 }

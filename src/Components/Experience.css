@@ -1,0 +1,72 @@
+.Experience {
+    padding: 220px 0px 220px 0px;
+    width: calc(60%);
+}
+
+.Exp-TitleNum {
+    display: inline-block;
+    color: #4e67eb
+}
+
+.Exp-TitleText {
+    display: inline-block;
+    font-weight: bold;
+    margin: 0px 0px 0px 12px;
+}
+
+.Exp-List {
+    padding-left: 6px;
+    width: 184px;
+    float: left;
+    margin-right: 0px;
+}
+
+.Exp-List-Item {
+    list-style: none;
+    font-size: 16px;
+    border-left: 2px solid #919191;
+    color: #919191;
+    padding: 12px 0px 12px 20px;
+}
+
+.Exp-List li:hover {
+    color: #4e67eb;
+    background-color: #E8E8E8;
+}
+
+.Exp-List-Selected {
+    color: #4e67eb;
+    border-left: 2px solid #4e67eb;
+}
+
+.Exp-DescContainer {
+    float: left;
+    width: calc(100% -176px);
+
+}
+
+.Exp-JobTitle {
+    color: black;
+    float: left;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 36px;
+    margin-bottom: 12px;
+    display: inline;
+    width:100%;
+}
+
+.Exp-At {
+    color: #4e67eb;
+}
+
+.Exp-JobLink {
+    color: #4e67eb;
+}
+
+.Exp-JobSubtitle {
+    float: left;
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: normal;
+}
