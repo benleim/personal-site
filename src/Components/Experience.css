@@ -1,5 +1,5 @@
 .Experience {
-    padding: 220px 0px 220px 0px;
+    padding: 220px 0px 220px calc(14%);
     width: calc(60%);
 }
 
@@ -29,7 +29,7 @@
     padding: 12px 0px 12px 20px;
 }
 
-.Exp-List li:hover {
+.Exp-List-Item:hover {
     color: #4e67eb;
     background-color: #E8E8E8;
 }
@@ -41,7 +41,8 @@
 
 .Exp-DescContainer {
     float: left;
-    width: calc(100% -176px);
+    padding-left: 12px;
+    width: calc(100% - 202px);
 
 }
 
@@ -61,7 +62,27 @@
 }
 
 .Exp-JobLink {
+    position: relative;
+    text-decoration: none;
     color: #4e67eb;
+}
+
+.Exp-JobLink:after{
+    content: '';
+    position: absolute;
+    width: 0; height: 2px;
+    display: block;
+    margin-top: 0px;
+    right: 0;
+    background: #4e67eb;
+    transition: width .2s ease;
+    -webkit-transition: width .2s ease;
+}
+
+.Exp-JobLink:hover:after{
+    width: 100%;
+    left: 0;
+    background: #4e67eb;
 }
 
 .Exp-JobSubtitle {
@@ -69,4 +90,27 @@
     margin-top: 0px;
     font-size: 16px;
     font-weight: normal;
+    width: 100%;
+}
+
+.Exp-JobList {
+    float: left;
+    clear: right;
+    font-size: 16px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 8px;
+    width: 65%;
+}
+
+.Exp-JobList li {
+    list-style: none;
+    padding-left: 10px;
+    text-indent: -19px;
+    margin-bottom: 12px;
+}
+
+.Exp-JobList li::before {
+    content: '\25B8';
+    padding-right: 10px;
+    color: #4367eb;
 }
