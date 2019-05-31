@@ -12,7 +12,7 @@ class Home extends React.Component {
                     By day, I'm a student at the University of Pennsylvania <br/> studying Computer Science and
                     Economics.
                 </p>
-                <button className="Home-ContactBtn">Contact Me</button>
+                <a className="Home-ContactBtn" href="mailto:wbleimberger@gmail.com">Contact Me</a>
             </div>
         );
     }

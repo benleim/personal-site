@@ -1,0 +1,53 @@
+.Projects {
+    width: calc(60%);
+    padding: 220px 0px 220px 0;
+}
+
+.Proj-TitleNum {
+    display: inline-block;
+    color: #4e67eb
+}
+
+.Proj-TitleText {
+    display: inline-block;
+    font-weight: bold;
+    margin: 0px 0px 0px 12px;
+}
+
+.Proj-Col1.Proj-Col2.Proj-Col3 {
+    width: 33%;
+}
+
+.Proj-Card {
+    background-color: black;
+    width: 100%;
+    height: 200px;
+}
+
+.Proj-FeatTitle {
+    text-align: right;
+    color: #4e67eb;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.Proj-FeatPTitle {
+    text-align: right;
+    color: black;
+    width: 100%;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.Proj-DescDiv {
+    float: right;
+    height: 100px;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    font-size: 16px;
+    text-align: right;
+    padding: 20px;
+}

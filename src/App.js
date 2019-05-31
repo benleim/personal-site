@@ -4,6 +4,7 @@ import Navigation from './Components/Navigation.js'
 import Home from './Components/Home.js'
 import About from './Components/About.js'
 import Experience from './Components/Experience.js'
+import Projects from './Components/Projects.js'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Home/>
         <About/>
         <Experience/>
+        <Projects/>
     </div>
   );
 }

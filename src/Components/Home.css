@@ -39,12 +39,15 @@
     border-radius: 4px;
     font-size: 18px;
     font-family: 'CircularStd';
+    text-decoration: none;
     background-color: transparent;
+    transition: background-color 0.75s;
     color: #4e67eb;
     border: 2px #4e67eb solid;
     float: left;
 }
 
 .Home-ContactBtn:hover {
-    background-color: #dbe0fb
+    background-color: #dbe0fb;
+    transition: background-color 0.75s;
 }

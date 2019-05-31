@@ -23,7 +23,6 @@ class Experience extends React.Component {
     }
 
     changeJob(e) {
-        let elem = e.target;
         let job = e.target.innerText;
         let data = {};
         switch (job) {
@@ -40,7 +39,8 @@ class Experience extends React.Component {
                     bullets: [
                         'Leveraged AWS to build a dashboard of performance metrics for the development team.',
                         'Wrote Serverless functions for querying the Azure DevOps API, uploaded to S3, crawled the data with ' +
-                        'Glue, and created visualizations with QuickSight.'
+                        'Glue, and created visualizations with QuickSight.',
+                        'Increased the efficiency of internal development operations.'
                     ]
                 };
                 break;
@@ -55,9 +55,10 @@ class Experience extends React.Component {
                     job4Class: 'Exp-List-Item',
                     link: 'https://richweb.com/',
                     bullets: [
-                        'Developed a web app for time tracking and daily planning that increased employee time efficiency',
-                        'Combined two legacy enterprise management platforms into one',
-                        'Increased employee productivity and company profitability'
+                        'Developed a React web app for employee time tracking and daily planning that increased employee' +
+                        ' time efficiency.',
+                        'Combined two legacy enterprise management platforms into one.',
+                        'Increased employee productivity and company profitability.'
                     ]
                 };
                 break;
@@ -72,8 +73,8 @@ class Experience extends React.Component {
                     job4Class: 'Exp-List-Item',
                     link: 'https://www.impactmakers.com/',
                     bullets: [
-                        'Created an analytics web app for an in-house, custom search engine',
-                        'Code went into production for the IM Connect platform used by billion-dollar hospital systems'
+                        'Created an Polymer web app for analytics of an in-house, custom search engine built on Elastic Search.',
+                        'Code went into production for the IM Connect platform used by multiple billion-dollar hospital systems.'
                     ]
                 };
                 break;
@@ -86,10 +87,11 @@ class Experience extends React.Component {
                     job2Class: 'Exp-List-Item',
                     job3Class: 'Exp-List-Item',
                     job4Class: 'Exp-List-Item Exp-List-Selected',
+                    link: 'https://itunes.apple.com/us/developer/ben-leimberger-llc/id940307720?mt=8',
                     bullets: [
-                        'Founded an app development company that has published 3 iPhone and 1 Windows Phone apps',
-                        'Recently developed an MVP for a social network oriented around forming social movements',
-                        'Over 12,000 aggregate unique downloads and 100+ weekly sessions.'
+                        'Founded an app development company that has published 3 iPhone and 1 Windows Phone apps.',
+                        'Developed an MVP for a social network oriented around forming social movements.',
+                        'Accrued over 12,000 aggregate unique downloads and 100+ weekly sessions.'
                     ]
                 };
                 break;
