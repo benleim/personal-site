@@ -1,6 +1,7 @@
 .About {
-    padding: 220px 0px 220px 0px;
-    width: calc(60%);
+    padding: 25vh 0px 25vh 0px;
+    height: 50vh;
+    width: 60vw;
 }
 
 .About-TitleNum {
@@ -15,10 +16,10 @@
 }
 
 .About-Desc {
-    width: 480px;
+    width: 31vw;
     float: left;
     clear: left;
-    font-size: 18px;
+    font-size: 2vh;
     margin-bottom: 0px;
 }
 
@@ -29,10 +30,10 @@
 .About-Techs {
     float: left;
     clear: left;
-    font-size: 18px;
+    font-size: 2vh;
     padding: 0px;
     columns: 3;
-    column-gap: 40px;
+    column-gap: 4vw;
 }
 
 .About-Techs li {
@@ -41,13 +42,13 @@
 
 .About-Techs li::before {
     content: '\25B8';
-    padding-right: 1em;
+    padding-right: 1vw;
     color: #4367eb;
 }
 
 .About-PicMe {
-    width: 450px;
-    height: 300px;
+    width: 28vw;
+    height: 34vh;
     float: right;
     border: 2px solid #4367eb;
 }
