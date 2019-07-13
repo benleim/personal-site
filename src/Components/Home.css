@@ -1,5 +1,5 @@
 .Home-Container {
-    width: 60vw;
+    width: 54vw;
     height: 50vh;
     float: left;
     padding: 25vh 0px 25vh 0vw;
@@ -9,27 +9,27 @@
     text-align: left;
     margin: 0px;
     font-weight: bold;
-    font-size: 8vh;
+    font-size: 72px;
 }
 
 .Home-Desc {
     text-align: left;
     margin: 0px;
-    font-size: 8vh;
+    font-size: 72px;
     font-weight: bold;
     color: #4e67eb
 }
 
 .Home-Intro {
     margin: 0px;
-    font-size: 2vh;
+    font-size: 18px;
     font-weight: normal;
 }
 
 .Home-Subtext {
     float: left;
     margin-top: 60px;
-    font-size: 2vh;
+    font-size: 18px;
     width: 100%;
 }
 

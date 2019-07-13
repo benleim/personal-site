@@ -1,5 +1,6 @@
 import React from 'react';
 import './Projects.css';
+import 'font-awesome/css/font-awesome.css';
 import MvmtPic2 from '../images/MovementHome.png';
 import MvmtPic from '../images/MovementSignIn.png';
 import MillionePic from '../images/MillioneHome.png';
@@ -26,7 +27,24 @@ class Projects extends React.Component {
                           'animations. Served as an exercise in UI and UX design.',
                     pic1: MillionePic,
                     pic2: MillionePic2,
-                    skills: ['Firebase', 'Swift', 'Illustrator']
+                    skills: ['Swift', 'Illustrator']
+                }
+            ],
+            otherProjects: [
+                {
+                    title: 'Timetracker',
+                    desc: 'A React app for tracking employee time and daily planning.',
+                    skills: ['React', 'Bootstrap']
+                },
+                {
+                    title: 'Ticket Market',
+                    desc: 'A platform to serve as a secondary market for party ticket sales.',
+                    skills: ['Django']
+                },
+                {
+                    title: 'Conformity',
+                    desc: 'Mobile app for solving and explaining basic math equations.',
+                    skills: ['Swift']
                 }
             ]
         }
@@ -63,32 +81,16 @@ class Projects extends React.Component {
                                     </div>
                                 </div>);
                     })}
-                    {/*<div className="Proj-Container">*/}
-                        {/*<div className="Proj-DataDiv">*/}
-                            {/*<h4 className="Proj-FeatTitle">Featured Project</h4>*/}
-                            {/*<h5 className="Proj-FeatPTitle">{this.state.projects[0].title}</h5>*/}
-                            {/*<div className="Proj-DescDiv">*/}
-                                {/*{this.state.projects[0].desc}*/}
-                            {/*</div>*/}
-                        {/*</div>*/}
-                        {/*<div>*/}
-                            {/*<img className="Proj-Pic" src={MvmtPic2}></img>*/}
-                            {/*<img className="Proj-Pic" src={MvmtPic}></img>*/}
-                        {/*</div>*/}
-                    {/*</div>*/}
-                    {/*<div className="Proj-Container">*/}
-                        {/*<div className="Proj-DataDiv2">*/}
-                            {/*<h4 className="Proj-FeatTitle2">Featured Project</h4>*/}
-                            {/*<h5 className="Proj-FeatPTitle2">{this.state.projects[1].title}</h5>*/}
-                            {/*<div className="Proj-DescDiv2">*/}
-                                {/*{this.state.projects[1].desc}*/}
-                            {/*</div>*/}
-                        {/*</div>*/}
-                        {/*<div className="Proj-PicDiv2">*/}
-                            {/*<img className="Proj-Pic" src={MvmtPic2}></img>*/}
-                            {/*<img className="Proj-Pic" src={MvmtPic}></img>*/}
-                        {/*</div>*/}
-                    {/*</div>*/}
+                </div>
+                <h4 className="Proj-OtherProjTitle">Other Projects</h4>
+                <div className="Proj-ProjContainer">
+                    {this.state.otherProjects.map((object, i) => {
+                        return (<div className="Proj-OtherProjContainer">
+                                    <i className="fa-tool"></i>
+                                    <p className="Proj-OtherTitle">{object.title}</p>
+                                    <p className="Proj-OtherDesc">{object.desc}</p>
+                                </div>)
+                    })}
                 </div>
             </div>
         );
