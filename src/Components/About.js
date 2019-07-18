@@ -13,25 +13,25 @@ class About extends React.Component {
                 <p className="About-Desc">
                     Hey there, I'm Ben! I'm currently studying at the <a className="About-ImportantText">University of
                     Pennsylvania</a> in Philadelphia, PA. Outside of college, I enjoy playing guitar, lifting weights,
-                    and developing mobile apps.
+                    and writing code!
 
                 </p>
                 <img className="About-PicMe" src={MePic}></img>
                 <p className="About-Desc">
-                    For me, the beauty of creating web apps and mobile apps lies in the combination of design and
-                    development. Each are equally important.
+                    For me, the beauty of creating web and mobile apps lies in the combination of design and
+                    development.
                 </p>
                 <p className="About-Desc">Recently, I've worked with:</p>
                 <ul className="About-Techs">
                     <li>React</li>
                     <li>Vue</li>
                     <li>Polymer</li>
-                    <li>Severless</li>
                     <li>AWS</li>
+                    <li>Serverless</li>
                     <li>Node.js</li>
                     <li>Swift</li>
                     <li>Firebase</li>
-                    <li>CocoaPods</li>
+                    <li>YAML</li>
                 </ul>
             </div>
         );

@@ -10,6 +10,12 @@
   src: url("fonts/CircularStd-Book.otf") format("opentype");
 }
 
+@font-face {
+  font-family: 'RobotoMono';
+  font-weight: normal;
+  src: url("fonts/RobotoMono-Regular.ttf") format("truetype");
+}
+
 .Home {
   background-color: #f3f3f3;
   color: #000;

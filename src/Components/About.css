@@ -1,7 +1,7 @@
 .About {
     padding: 25vh 0px 25vh 0px;
     height: 50vh;
-    width: 60vw;
+    width: 950px;
 }
 
 .About-TitleNum {
@@ -16,10 +16,10 @@
 }
 
 .About-Desc {
-    width: 31vw;
+    width: 500px;
     float: left;
     clear: left;
-    font-size: 2vh;
+    font-size: 18px;
     margin-bottom: 0px;
 }
 
@@ -30,10 +30,10 @@
 .About-Techs {
     float: left;
     clear: left;
-    font-size: 2vh;
+    font-size: 18px;
     padding: 0px;
     columns: 3;
-    column-gap: 4vw;
+    column-gap: 28px;
 }
 
 .About-Techs li {
@@ -47,8 +47,8 @@
 }
 
 .About-PicMe {
-    width: 28vw;
-    height: 34vh;
+    width: 420px;
+    height: 280px;
     float: right;
     border: 2px solid #4367eb;
 }

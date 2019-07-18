@@ -121,18 +121,20 @@
 
 .Proj-SkillList {
     list-style: none;
-    font-size: 16px;
+    font-size: 14px;
     color: #919191;
     float: right;
     padding: 0px;
+    font-family: 'RobotoMono';
 }
 
 .Proj-SkillList2 {
     list-style: none;
-    font-size: 16px;
+    font-size: 14px;
     color: #919191;
     float: left;
     padding: 0px;
+    font-family: 'RobotoMono';
 }
 
 .Proj-SkillListItem2 {
@@ -154,11 +156,13 @@
 
 .Proj-OtherProjContainer {
     width: 19vw;
-    height: 30vh;
+    height: 340px;
     background-color: #fff;
     border-radius: 4px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     margin: 1vh 0.5vw 1vh 0.5vw;
+    display: flex;
+    flex-direction: column;
 }
 
 .Proj-OtherTitle {
@@ -176,4 +180,34 @@
 .Proj-OtherIcon {
     margin: 3vh 0vw 2vh 2vw;
     color: #4e67eb;
+}
+
+.Proj-OtherIconGit {
+    color: #919191;
+    float: right;
+    margin: 3vh 1vw 2vh 0vw;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.Proj-OtherIconLink {
+    color: #919191;
+    float: right;
+    margin: 3vh 2vw 2vh 0vw;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.Proj-OtherSkills {
+    list-style: none;
+    color: rgb(95, 99, 104);
+    font-size: 14px;
+    font-family: 'RobotoMono';
+    padding: 0px;
+    margin: auto 2vw 4vh 2vw;
+}
+
+.Proj-OtherSkillsLi {
+    display: inline-block;
+    padding: 0vh 1vw 0vh 0vw;
 }
