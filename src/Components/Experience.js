@@ -104,7 +104,7 @@ class Experience extends React.Component {
 
     render() {
         return (
-            <div className="Experience">
+            <div className="Experience" ref={ (divElement) => this.divElement = divElement}>
                 <div className="Exp-Header">
                     <h3 className="Exp-TitleNum">02.</h3>
                     <h3 className="Exp-TitleText">Experience</h3>

@@ -3,9 +3,14 @@ import './Home.css';
 import '@fortawesome/fontawesome-free/css/all.css';
 
 class Home extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {}
+    }
+
     render() {
         return (
-            <div className="Home-Container">
+            <div className="Home-Container" ref={ (divElement) => this.divElement = divElement}>
                 <p className="Home-Intro">Hello, my name is</p>
                 <h1 className="Home-Name">Ben Leimberger.</h1>
                 <h1 className="Home-Desc">I'm a developer & designer.</h1>

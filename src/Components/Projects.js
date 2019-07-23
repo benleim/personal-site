@@ -65,7 +65,7 @@ class Projects extends React.Component {
 
     render() {
         return (
-            <div className="Projects">
+            <div className="Projects" ref={ (divElement) => this.divElement = divElement}>
                 <div className="Proj-Header">
                     <h3 className="Proj-TitleNum">03.</h3>
                     <h3 className="Proj-TitleText">Projects</h3>

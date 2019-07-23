@@ -17,6 +17,10 @@
     margin: 1vh 0vw 1vh 1vw;
 }
 
+.Nav-Icon:hover {
+    background: rgba(0,0,0,0.1);
+}
+
 .Nav-Options {
     color: #000;
     list-style: none;
@@ -34,6 +38,7 @@
     text-decoration: none;
     color: black;
     vertical-align: bottom;
+    cursor: pointer;
 }
 
 .Nav-Link:after{
