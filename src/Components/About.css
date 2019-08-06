@@ -5,12 +5,14 @@
 
 .About-TitleNum {
     display: inline-block;
-    color: #4e67eb
+    color: #4e67eb;
+    font-size: 32px;
 }
 
 .About-TitleText {
     display: inline-block;
     font-weight: bold;
+    font-size: 32px;
     margin: 0px 0px 0px 12px;
 }
 
@@ -29,10 +31,10 @@
 .About-Techs {
     float: left;
     clear: left;
+    width: 520px;
     font-size: 18px;
     padding: 0px;
     columns: 3;
-    column-gap: 28px;
 }
 
 .About-Techs li {

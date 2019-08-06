@@ -37,7 +37,7 @@ class Projects extends React.Component {
                     skills: ['React', 'Bootstrap']
                 },
                 {
-                    title: 'Downtown Market',
+                    title: 'Downtown Marketplace',
                     desc: 'A platform to serve as a secondary market for party ticket sales.',
                     skills: ['Django', 'Python'],
                     github: 'https://github.com/ArmaanT/downtown-marketplace',

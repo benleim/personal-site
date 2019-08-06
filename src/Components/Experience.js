@@ -6,7 +6,7 @@ class Experience extends React.Component {
         super(props);
         this.changeJob = this.changeJob.bind(this);
         this.state = {
-            title: 'SWE Intern',
+            title: 'SWE + Cloud Architect Intern',
             dates: 'May 2019 - August 2019',
             company: 'Paymerang',
             link: 'https://paymerang.com/',
@@ -15,11 +15,14 @@ class Experience extends React.Component {
             job3Class: 'Exp-List-Item',
             job4Class: 'Exp-List-Item',
             bullets: [
-                'Leveraged AWS to build a dashboard of performance metrics for the development team.',
+                'Wrote CloudFormation templates for spinning up stacks with RDS, EC2, and VPC instances and ' +
+                'Lambda functions.',
+                'Leveraged AWS to build a web app dashboard of performance metrics for the development team.',
+                'Two of my metrics were reported to investors',
                 'Wrote Serverless functions for querying the Azure DevOps API, uploaded to S3, crawled the data with ' +
-                'Glue, and created visualizations with QuickSight.'
+                'Glue, and created visualizations with KendoUI.'
             ]
-        }
+        };
     }
 
     changeJob(e) {
@@ -28,7 +31,7 @@ class Experience extends React.Component {
         switch (job) {
             case 'Paymerang':
                 data = {
-                    title: 'SWE Intern',
+                    title: 'SWE + Cloud Architect Intern',
                     dates: 'May 2019 - August 2019',
                     company: 'Paymerang',
                     link: 'https://paymerang.com/',
@@ -37,10 +40,12 @@ class Experience extends React.Component {
                     job3Class: 'Exp-List-Item',
                     job4Class: 'Exp-List-Item',
                     bullets: [
-                        'Leveraged AWS to build a dashboard of performance metrics for the development team.',
+                        'Wrote CloudFormation templates for spinning up stacks including RDS, EC2, and VPC instances and ' +
+                        'Lambda functions.',
+                        'Leveraged AWS to build a web app dashboard of performance metrics for the development team.',
+                        'Two of my metrics were reported to investors',
                         'Wrote Serverless functions for querying the Azure DevOps API, uploaded to S3, crawled the data with ' +
-                        'Glue, and created visualizations with QuickSight.',
-                        'Increased the efficiency of internal development operations.'
+                        'Glue, and created visualizations with KendoUI.'
                     ]
                 };
                 break;

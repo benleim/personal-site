@@ -24,10 +24,10 @@ class About extends React.Component {
                 <ul className="About-Techs">
                     <li>React</li>
                     <li>Vue</li>
-                    <li>Polymer</li>
+                    <li>Node.js</li>
                     <li>AWS</li>
                     <li>Serverless</li>
-                    <li>Node.js</li>
+                    <li>CloudFormation</li>
                     <li>Swift</li>
                     <li>Firebase</li>
                     <li>YAML</li>

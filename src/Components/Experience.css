@@ -1,21 +1,23 @@
 .Experience {
-    padding: 225px 0px 225px 235px;
+    padding: 225px 0px 220px 220px;
 }
 
 .Exp-TitleNum {
     display: inline-block;
+    font-size: 32px;
     color: #4e67eb
 }
 
 .Exp-TitleText {
     display: inline-block;
     font-weight: bold;
+    font-size: 32px;
     margin: 0px 0px 0px 12px;
 }
 
 .Exp-List {
     padding-left: 6px;
-    width: 12vw;
+    width: 180px;
     float: left;
     margin-right: 0px;
 }
@@ -41,7 +43,7 @@
 .Exp-DescContainer {
     float: left;
     padding-left: 12px;
-    width: 46vw;
+    width: 780px;
 
 }
 
@@ -49,11 +51,10 @@
     color: black;
     float: left;
     font-weight: bold;
-    font-size: 3vh;
-    margin-top: 2.5vh;
-    margin-bottom: 1vh;
+    font-size: 26px;
+    margin-top: 22px;
+    margin-bottom: 10px;
     display: inline;
-    width:100%;
 }
 
 .Exp-At {
@@ -87,7 +88,7 @@
 .Exp-JobSubtitle {
     float: left;
     margin-top: 0px;
-    font-size: 2vh;
+    font-size: 18px;
     font-weight: normal;
     width: 100%;
 }
@@ -95,7 +96,7 @@
 .Exp-JobList {
     float: left;
     clear: right;
-    font-size: 1.8vh;
+    font-size: 16px;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 8px;
     width: 65%;

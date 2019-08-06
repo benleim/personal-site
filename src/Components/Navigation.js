@@ -5,6 +5,15 @@ class Navigation extends React.Component {
     constructor(props) {
         super(props);
         this.scrollToTarget = this.scrollToTarget.bind(this);
+        this.homeClicked = this.homeClicked.bind(this);
+    }
+
+    homeClicked(e) {
+        let offsetPosition = 0;
+        window.scrollTo({
+            top: offsetPosition,
+            behavior: "smooth"
+        });
     }
 
     scrollToTarget(e){
@@ -41,7 +50,7 @@ class Navigation extends React.Component {
     render() {
         return (
             <div className="Nav">
-                <p className="Nav-Icon">WBL</p>
+                <p className="Nav-Icon" onClick={this.homeClicked}>WBL</p>
                 <ul className="Nav-Options">
                     <li><a className="Nav-Link" onClick={this.scrollToTarget}>ABOUT</a></li>
                     <li><a className="Nav-Link" onClick={this.scrollToTarget}>EXPERIENCE</a></li>
